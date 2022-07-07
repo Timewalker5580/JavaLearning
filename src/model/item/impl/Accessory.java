@@ -6,13 +6,13 @@ public class Accessory implements Accessoryable {
     private final String name;
     private final String manufacturer;
     private final double price;
-    private final String material;
+    private final double weight;
 
-    public Accessory(String name, String manufacturer, double price, String material) {
+    public Accessory(String name, String manufacturer, double price, double weight) {
         this.name = name;
         this.manufacturer = manufacturer;
         this.price = price;
-        this.material = material;
+        this.weight = weight;
     }
 
     @Override
@@ -31,8 +31,8 @@ public class Accessory implements Accessoryable {
     }
 
     @Override
-    public String getMaterial() {
-        return material;
+    public double getWeight() {
+        return weight;
     }
 
     @Override
@@ -41,7 +41,7 @@ public class Accessory implements Accessoryable {
                 "name - '" + name + '\'' +
                 ", manufacturer - '" + manufacturer + '\'' +
                 ", price = " + price +
-                ", material =" + material +
+                ", weight =" + weight +
                 '}';
     }
 }

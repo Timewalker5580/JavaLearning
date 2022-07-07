@@ -6,8 +6,8 @@ public class Lock extends Accessory implements Lockable {
     private final int size1;
     private final int size2;
 
-    public Lock(String name, String manufacturer, double price, String material, int size1, int size2) {
-        super(name, manufacturer, price, material);
+    public Lock(String name, String manufacturer, double price, double weight, int size1, int size2) {
+        super(name, manufacturer, price, weight);
         this.size1 = size1;
         this.size2 = size2;
     }
@@ -21,7 +21,7 @@ public class Lock extends Accessory implements Lockable {
                 "name - '" + getName() + '\'' +
                 ", manufacturer - '" + getManufacturer() + '\'' +
                 ", price = " + getPrice() +
-                ", material =" + getMaterial() +
+                ", weight =" + getWeight() +
                 ", size 1 =" + getSize1() +
                 ", size 2 =" + getSize2() +
                 '}';

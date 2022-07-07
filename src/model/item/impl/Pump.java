@@ -6,8 +6,8 @@ public class Pump extends Accessory implements Pumpable {
 
     private final double pressure;
 
-    public Pump(String name, String manufacturer, double price, String material, double pressure) {
-        super(name, manufacturer, price, material);
+    public Pump(String name, String manufacturer, double price, double weight, double pressure) {
+        super(name, manufacturer, price, weight);
         this.pressure = pressure;
     }
 
@@ -23,7 +23,7 @@ public class Pump extends Accessory implements Pumpable {
                 "name - '" + getName() + '\'' +
                 ", manufacturer - '" + getManufacturer() + '\'' +
                 ", price = " + getPrice() +
-                ", material =" + getMaterial() +
+                ", weight =" + getWeight() +
                 ", pressure =" + getPressure() +
                 '}';
     }

@@ -5,8 +5,8 @@ import model.item.Flashable;
 public class Flash extends Accessory implements Flashable {
     private final String color;
 
-    public Flash(String name, String manufacture, double price, String material, String color) {
-        super(name, manufacture, price, material);
+    public Flash(String name, String manufacture, double price, double weight, String color) {
+        super(name, manufacture, price, weight);
         this.color = color;
     }
 
@@ -18,7 +18,7 @@ public class Flash extends Accessory implements Flashable {
                 "name - '" + getName() + '\'' +
                 ", manufacturer - '" + getManufacturer() + '\'' +
                 ", price = " + getPrice() +
-                ", material =" + getMaterial() +
+                ", weight =" + getWeight() +
                 ", color =" + getColor() +
                 '}';
     }

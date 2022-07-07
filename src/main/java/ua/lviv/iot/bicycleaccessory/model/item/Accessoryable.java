@@ -1,4 +1,4 @@
-package model.item;
+package ua.lviv.iot.bicycleaccessory.model.item;
 
 public interface Accessoryable {
     String getName();

@@ -1,6 +1,6 @@
-package model.item.impl;
+package ua.lviv.iot.bicycleaccessory.model.item.impl;
 
-import model.item.Lockable;
+import ua.lviv.iot.bicycleaccessory.model.item.Lockable;
 
 public class Lock extends Accessory implements Lockable {
     private final int size1;

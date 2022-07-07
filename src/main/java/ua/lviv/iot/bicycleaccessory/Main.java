@@ -1,10 +1,12 @@
-package model;
+package ua.lviv.iot.bicycleaccessory;
 
-import manager.BicycleAccessoryManager;
-import model.item.impl.Accessory;
-import model.item.impl.Flash;
-import model.item.impl.Lock;
-import model.item.impl.Pump;
+import ua.lviv.iot.bicycleaccessory.manager.BicycleAccessoryManager;
+import ua.lviv.iot.bicycleaccessory.model.BicycleAccessory;
+import ua.lviv.iot.bicycleaccessory.model.SortDirection;
+import ua.lviv.iot.bicycleaccessory.model.item.impl.Accessory;
+import ua.lviv.iot.bicycleaccessory.model.item.impl.Flash;
+import ua.lviv.iot.bicycleaccessory.model.item.impl.Lock;
+import ua.lviv.iot.bicycleaccessory.model.item.impl.Pump;
 
 import java.util.ArrayList;
 import java.util.List;

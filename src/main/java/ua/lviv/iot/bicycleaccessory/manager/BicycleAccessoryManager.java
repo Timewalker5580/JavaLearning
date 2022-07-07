@@ -1,14 +1,14 @@
-package manager;
+package ua.lviv.iot.bicycleaccessory.manager;
 
-import model.BicycleAccessory;
-import model.SortDirection;
-import model.item.impl.Accessory;
+import ua.lviv.iot.bicycleaccessory.model.BicycleAccessory;
+import ua.lviv.iot.bicycleaccessory.model.SortDirection;
+import ua.lviv.iot.bicycleaccessory.model.item.impl.Accessory;
 
 import java.util.Comparator;
 import java.util.List;
-import java.util.Objects;
 
-import static model.SortDirection.ASC;
+import static ua.lviv.iot.bicycleaccessory.model.SortDirection.ASC;
+
 
 public class BicycleAccessoryManager {
 

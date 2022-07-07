@@ -1,6 +1,6 @@
-package model.item.impl;
+package ua.lviv.iot.bicycleaccessory.model.item.impl;
 
-import model.item.Pumpable;
+import ua.lviv.iot.bicycleaccessory.model.item.Pumpable;
 
 public class Pump extends Accessory implements Pumpable {
 

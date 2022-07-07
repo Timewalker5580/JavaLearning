@@ -1,6 +1,6 @@
-package model;
+package ua.lviv.iot.bicycleaccessory.model;
 
-import model.item.impl.Accessory;
+import ua.lviv.iot.bicycleaccessory.model.item.impl.Accessory;
 
 import java.util.List;
 

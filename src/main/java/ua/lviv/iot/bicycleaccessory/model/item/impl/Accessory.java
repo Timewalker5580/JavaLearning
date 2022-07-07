@@ -1,6 +1,6 @@
-package model.item.impl;
+package ua.lviv.iot.bicycleaccessory.model.item.impl;
 
-import model.item.Accessoryable;
+import ua.lviv.iot.bicycleaccessory.model.item.Accessoryable;
 
 public class Accessory implements Accessoryable {
     private final String name;

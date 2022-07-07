@@ -1,6 +1,6 @@
-package model.item.impl;
+package ua.lviv.iot.bicycleaccessory.model.item.impl;
 
-import model.item.Flashable;
+import ua.lviv.iot.bicycleaccessory.model.item.Flashable;
 
 public class Flash extends Accessory implements Flashable {
     private final String color;
